@@ -1,8 +1,8 @@
-import React from 'react';
-import { Button, Grid, Theme, Typography } from '@mui/material';
-import RefreshIcon from '@mui/icons-material/Refresh';
-import { createStyles, makeStyles } from '@mui/styles';
-import { LayoutWithNoMenus } from '../components/reusable/LayoutWithNoMenus';
+import React from "react";
+import { Button, Grid, Theme, Typography } from "@mui/material";
+import RefreshIcon from "@mui/icons-material/Refresh";
+import { createStyles, makeStyles } from "@mui/styles";
+import { LayoutWithNoMenus } from "../components/reusable/LayoutWithNoMenus";
 // import theme from '../theme';
 
 const useStyles = makeStyles((theme: Theme) =>
@@ -13,11 +13,11 @@ const useStyles = makeStyles((theme: Theme) =>
       color: theme?.palette?.text?.secondary,
     },
     btn: {
-      padding: '24px',
+      padding: "24px",
       fontSize: 18,
       fontWeight: 600,
-      letterSpacing: '2px',
-      marginTop: '40px',
+      letterSpacing: "2px",
+      marginTop: "40px",
     },
   })
 );

@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { ErrorBoundaryPage } from '../../pages/ErrorBoundaryPage';
+import React, { Component } from "react";
+import { ErrorBoundaryPage } from "../../pages/ErrorBoundaryPage";
 export class ErrorBoundary extends Component<any, any> {
   constructor(props: any) {
     super(props);

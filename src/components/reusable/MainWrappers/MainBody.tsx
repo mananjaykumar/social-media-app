@@ -1,8 +1,8 @@
-import React from 'react';
-import { ThemeProvider } from '@mui/system';
-import { Paper } from '@mui/material';
+import React from "react";
+import { ThemeProvider } from "@mui/system";
+import { Paper } from "@mui/material";
 
-import theme from '../../../theme';
+import theme from "../../../theme";
 
 const MainBody = ({ children }: any) => {
   return (
@@ -13,9 +13,9 @@ const MainBody = ({ children }: any) => {
         className="main-body"
         sx={{
           bgcolor: theme.palette.background.default,
-          px: '16px',
+          px: "16px",
           flexGrow: 1,
-          position: 'relative',
+          position: "relative",
         }}
       >
         {children}
