@@ -42,7 +42,7 @@ export const Header = ({ user }: { user: any }) => {
           }}
           onClick={() => navigate(ROOT)}
         >
-          Home
+          Social
         </Typography>
         <Button
           sx={{
